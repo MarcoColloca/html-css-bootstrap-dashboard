@@ -185,6 +185,10 @@ img{
     .main__content__title .row{
         flex-direction: row-reverse;
     }
+
+    .main__content__title--brand{
+        order: 1;
+    }
 }
 
 
