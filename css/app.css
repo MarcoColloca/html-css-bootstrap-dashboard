@@ -87,13 +87,23 @@ img{
 }
 
 /*\ Main Sidebar /*/
+
+.main__sidebar{
+    background-color: #12293e;
+    color: white;
+    padding: 16px 0;
+}
+
+
 .main__sidebar .row{
     width: 68px;
     height: 100%;
     flex-shrink: 0;
 }
 
-
+.main__sidebar__link--list li{
+    margin-bottom: 7px;
+}
 
 
 
@@ -231,7 +241,6 @@ img{
 }
 
 .debug .main__sidebar{
-    background-color: rgb(114, 117, 255);
 }
 
 .debug .main__content{
