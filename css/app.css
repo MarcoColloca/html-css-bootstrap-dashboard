@@ -128,8 +128,14 @@ img{
 
 
     /* Main Sidebar */
-    .main__sidebar{
+    .main__sidebar .row{
         width: 150px;
+    }
+
+    .main__sidebar__link--list li,
+    .main__sidebar__link--admin{
+        display: flex;
+        gap: 5px;
     }
 }
 
