@@ -24,7 +24,6 @@ img{
 
 
 
-
 /* UTILITIES */
 
 .text-gold{
@@ -56,8 +55,21 @@ img{
 }
 
 
+.header__navbar__searchbar{
+    padding-left: 30px;
+    background-color: #e5e5e5;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 
+.header__navbar__searchbar--symbol{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: rgb(44, 44, 44);
+}
 
 
 
