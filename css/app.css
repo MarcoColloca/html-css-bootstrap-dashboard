@@ -55,6 +55,10 @@ img{
     padding: 16px 0;
 }
 
+.header__navbar .row{
+    align-items: center;
+}
+
 .header__navbar__logo{
     width: 32;
     aspect-ratio: 1/1;
