@@ -9,6 +9,7 @@
 ul, ol, menu{
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
 a{
@@ -32,12 +33,20 @@ img{
 
 /* Header  */
 
+.header__navbar{
+    height: 70px;
+    padding: 16px 0;
+}
 
+.header__navbar__logo{
+    width: 32;
+    aspect-ratio: 1/1;
+}
 
+.header__navbar__list{
+    display: flex;
 
-
-
-
+}
 
 
 
