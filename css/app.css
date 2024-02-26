@@ -42,7 +42,7 @@ img{
 
 
 
-/*\\ Header  //*/
+/*\\ header  //*/
 
 .header__navbar{
     height: 70px;
@@ -73,6 +73,34 @@ img{
 
 
 
+/*\\ Main //*/
+
+.main-page-wrapper{
+    display: flex;
+}
+
+.main__sidebar .row{
+    width: 68px;
+    height: calc(100vh - 70px);
+    flex-shrink: 0;
+}
+
+.main__content{
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*\\ Tablet Responsive View //*/
 
@@ -89,10 +117,48 @@ img{
 
 @media (min-width: 992px){
 
+    /* Header Navbar*/
+
     .header__navbar__list{
         display: flex;
         gap: 10px;
         align-items: center;
         justify-content: center;
     }
+
+
+    /* Main Sidebar */
+    .main__sidebar{
+        width: 150px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+
+.debug [class^=col]{
+    border: solid 1px red;
+}
+
+.debug .main__sidebar{
+    background-color: rgb(114, 117, 255);
+}
+
+.debug .main__content{
+    background-color: bisque;
 }
