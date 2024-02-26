@@ -25,13 +25,25 @@ img{
 
 
 
+/* UTILITIES */
+
+.text-gold{
+    color: goldenrod;
+}
+
+.text-drakgray{
+    color: rgb(75, 75, 75);
+}
 
 
 
 
 
 
-/* Header  */
+
+
+
+/*\\ Header  //*/
 
 .header__navbar{
     height: 70px;
@@ -43,10 +55,7 @@ img{
     aspect-ratio: 1/1;
 }
 
-.header__navbar__list{
-    display: flex;
 
-}
 
 
 
@@ -68,4 +77,10 @@ img{
 
 @media (min-width: 992px){
 
+    .header__navbar__list{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
 }
