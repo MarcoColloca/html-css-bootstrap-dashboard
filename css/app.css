@@ -34,7 +34,13 @@ img{
     color: rgb(75, 75, 75);
 }
 
+.bg-blue{
+    background-color: #1B72E8;
+}
 
+.bg-darktransparent{
+    background-color: rgba(0, 0, 0, 0.2);
+}
 
 
 
@@ -80,7 +86,7 @@ img{
     display: flex;
 }
 
-/* Main Sidebar */
+/*\ Main Sidebar /*/
 .main__sidebar .row{
     width: 68px;
     height: 100%;
@@ -91,7 +97,7 @@ img{
 
 
 
-/* Main Page Content */
+/*\ Main Page Content /*/
 .main__content{
     flex-grow: 1;
     display: flex;
@@ -99,10 +105,53 @@ img{
     overflow-y: scroll;
 }
 
+/* Content title */
 .main__content__title{
     flex-shrink: 0;
+    background-color: #1B72E8;
+    color: white;
+    padding: 25px 0;
 }
 
+
+.main__content__title--new-student,
+.main__content__title--online--student,
+.main__content__title--brand{
+    display: flex; 
+    justify-content: flex-start;
+}
+
+.main__content__title--online--student,
+.main__content__title--brand{
+    flex-direction: column;
+}
+
+.main__content__title--new-student{
+    align-items: baseline;
+    gap: 10px;
+}
+
+
+.main__content__title--brand__bagdes{
+    display: flex;
+    margin-top: 5px;
+    align-items: baseline;
+    gap: 5px;
+}
+
+
+
+.add-button{
+    width: 20px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Content Components */
 .main__content__components{
     flex-grow: 1;
 }
@@ -120,8 +169,12 @@ img{
 
 /*\\ Tablet Responsive View //*/
 
-@media (min-width: 7682px){
+@media (min-width: 768px){
 
+    /* Main Content Title */
+    .main__content__title .row{
+        flex-direction: row-reverse;
+    }
 }
 
 
@@ -187,7 +240,6 @@ img{
 
 
 .debug .main__content__title [class^=col]{
-    min-height: 200px;
 }
 
 
