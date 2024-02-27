@@ -262,7 +262,7 @@ img{
 /* DEBUG */
 
 
-.debug [class^=col]{
+/* .debug [class^=col]{
     border: solid 1px red;
 }
 
@@ -276,4 +276,4 @@ img{
 
 .debug .main__content__components [class^=col]{
     min-height: 600px;
-}
+} */
