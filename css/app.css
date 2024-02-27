@@ -109,6 +109,7 @@ img{
 
 .main__sidebar{
     background-color: #12293e;
+    background-image: url(../img/sidebar-bg.png);
     color: white;
     padding: 16px 0;
 }
