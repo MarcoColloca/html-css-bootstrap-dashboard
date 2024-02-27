@@ -63,6 +63,9 @@ img{
     color: black;
 }
 
+.hover-bold:hover{
+    font-weight: bold;
+}
 
 
 /* LAYOUT */
