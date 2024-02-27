@@ -170,6 +170,7 @@ img{
 }
 
 .main__sidebar a {
+    display: inline-block;
     margin: 0;
     width: 100%;
     padding: 5px;
@@ -301,11 +302,15 @@ img{
         width: 150px;
     }
 
-    .main__sidebar__link--list li,
-    .main__sidebar__link--admin{
-        display: flex;
-        gap: 5px;
+
+    .main__sidebar__link--list i,
+    .main__sidebar__link--admin i{
+        margin-right: 7px;
     }
+
+
+
+    /* Main Content Title */
 
     #offcanvasNew-student-form{
         width: 500px;
