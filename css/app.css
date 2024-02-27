@@ -38,6 +38,11 @@ img{
     background-color: #1B72E8;
 }
 
+.bg-lightgray{
+  background-color:  #f8f9fa;
+}
+
+
 .bg-darktransparent{
     background-color: rgba(0, 0, 0, 0.2);
 }
