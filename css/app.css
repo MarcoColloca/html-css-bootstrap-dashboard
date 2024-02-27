@@ -215,7 +215,6 @@ img{
 }
 
 
-
 .add-button{
     width: 20px;
     aspect-ratio: 1/1;
@@ -223,6 +222,12 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* Offcanvas */
+#offcanvasNew-student-form{
+    width: 100%;
 }
 
 
@@ -259,6 +264,10 @@ img{
     .main__content__title--brand{
         order: 1;
     }
+
+    #offcanvasNew-student-form{
+        width: 700px;
+    }
 }
 
 
@@ -289,6 +298,10 @@ img{
     .main__sidebar__link--admin{
         display: flex;
         gap: 5px;
+    }
+
+    #offcanvasNew-student-form{
+        width: 500px;
     }
 }
 
