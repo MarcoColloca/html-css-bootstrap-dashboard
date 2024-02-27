@@ -131,7 +131,9 @@ img{
 }
 
 
-
+.header__navbar__list a{
+    padding: 0 5px;
+}
 
 
 
