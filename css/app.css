@@ -55,11 +55,13 @@ img{
 
 /* Hover Utilities */
 
-.hover-white:hover{
+.hover-bg-white:hover{
     background-color: rgb(255, 255, 255, 0.5);
 }
 
-
+.hover-black:hover{
+    color: black;
+}
 
 
 
