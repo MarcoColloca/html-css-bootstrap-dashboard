@@ -73,7 +73,7 @@ img{
 }
 
 .header__navbar__logo{
-    width: 32;
+    width: 32px;
     aspect-ratio: 1/1;
 }
 
@@ -183,7 +183,12 @@ img{
     flex-grow: 1;
 }
 
-
+.main--class-table, 
+.main--faq, 
+.main--todo-card, 
+.main--users-card {
+    margin: 16px 0;
+}
 
 
 
