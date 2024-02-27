@@ -60,86 +60,13 @@
 
                             <!-- Mobile/Tablet/Desktop View -->
                             <li>
-                                <a class="text-gold" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                <a class="text-gold" href="#">
                                     <i class="fa-solid fa-bell"></i>
                                 </a>                                
                             </li>                            
                         </ul>
 
-                        <!-- Offcanvas -->
-                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                            </div>
-                            <div class="offcanvas-body">
-                                <form class="row g-3">
-                                    <div class="col-md-6">
-                                        <label for="nome" class="form-label">Nome</label>
-                                        <input type="text" class="form-control" id="name">
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <label for="surname" class="form-label">Cognome</label>
-                                        <input type="text" class="form-control" id="surname">
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <label for="inputAddress" class="form-label">E-mail</label>
-                                        <input type="email" class="form-control" id="inputAddress" placeholder="mail@esempio.it">
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <label for="password" class="form-label">Password</label>
-                                        <input type="password" class="form-control" id="password">
-                                    </div>
-
-                                    <div class="col-12">
-                                        <label for="address" class="form-label">Indirizzo</label>
-                                        <input type="text" class="form-control" id="address">
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <label for="city" class="form-label">Città</label>
-                                        <input type="text" class="form-control" id="city">
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <label for="inputState" class="form-label">Stato</label>
-                                        <select id="inputState" class="form-select">
-                                            <option selected>Scegli...</option>
-                                            <option>Italia</option>
-                                            <option>Francia</option>
-                                            <option>Giappone</option>
-                                            <option>Germania</option>
-                                            <option>Inghilterra</option>
-                                            <option>Svizzera</option>
-                                            <option>Spagna</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="col-md-2">
-                                        <label for="cap" class="form-label">Cap</label>
-                                        <input type="text" class="form-control" id="cap">
-                                    </div>
-
-                                    <div class="col-12">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                                            <label class="form-check-label" for="gridCheck">
-                                                Seleziona per proseguire
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12">
-                                        <button type="submit" class="btn btn-primary">Salva</button>
-                                        <button type="submit" class="btn btn-warning">Svuota</button>
-                                    </div>
-                                </form>
-                                
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -195,7 +122,82 @@
                         <div class="row">
                             <div class="col-12 col-md-4 col-lg-3 main__content__title--new-student">
                                <p>Nuovo Studente</p>
-                               <button type="button" class="btn btn-outline-light">&plus;</button>
+                               <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">&plus;</button>
+
+                               <!-- Offcanvas -->
+                                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <form class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="nome" class="form-label">Nome</label>
+                                                <input type="text" class="form-control" id="name">
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <label for="surname" class="form-label">Cognome</label>
+                                                <input type="text" class="form-control" id="surname">
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <label for="inputAddress" class="form-label">E-mail</label>
+                                                <input type="email" class="form-control" id="inputAddress" placeholder="mail@esempio.it">
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <label for="password" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="password">
+                                            </div>
+
+                                            <div class="col-12">
+                                                <label for="address" class="form-label">Indirizzo</label>
+                                                <input type="text" class="form-control" id="address">
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <label for="city" class="form-label">Città</label>
+                                                <input type="text" class="form-control" id="city">
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <label for="inputState" class="form-label">Stato</label>
+                                                <select id="inputState" class="form-select">
+                                                    <option selected>Scegli...</option>
+                                                    <option>Italia</option>
+                                                    <option>Francia</option>
+                                                    <option>Giappone</option>
+                                                    <option>Germania</option>
+                                                    <option>Inghilterra</option>
+                                                    <option>Svizzera</option>
+                                                    <option>Spagna</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-md-2">
+                                                <label for="cap" class="form-label">Cap</label>
+                                                <input type="text" class="form-control" id="cap">
+                                            </div>
+
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                    <label class="form-check-label" for="gridCheck">
+                                                        Seleziona per proseguire
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <button type="submit" class="btn btn-primary">Salva</button>
+                                                <button type="submit" class="btn btn-warning">Svuota</button>
+                                            </div>
+                                        </form>
+                                        
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="col-12 col-md-4 col-lg-6 main__content__title--brand">
