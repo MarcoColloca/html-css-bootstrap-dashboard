@@ -24,7 +24,7 @@ img{
 
 
 
-/* UTILITIES */
+/*\\ UTILITIES //*/
 
 .text-gold{
     color: goldenrod;
@@ -53,6 +53,16 @@ img{
 
 
 
+/* Hover Utilities */
+
+.hover-white:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+
+
+
+
 /* LAYOUT */
 
 .my-section-intro{
@@ -68,7 +78,11 @@ img{
 
 
 
-/* STYLE */
+
+
+
+
+/*\\ STYLE //*/
 
 .my-table-img{
     width: 25px;
@@ -83,7 +97,7 @@ img{
 
 
 
-/*\\ header  //*/
+/*\\ HEADER  //*/
 
 .header__navbar{
     height: 70px;
@@ -118,7 +132,10 @@ img{
 
 
 
-/*\\ Main //*/
+
+
+
+/*\\ MAIN //*/
 
 .main-page-wrapper{
     height: calc(100vh - 70px);
@@ -142,10 +159,18 @@ img{
 }
 
 .main__sidebar__link--list li{
-    margin-bottom: 7px;
+    margin-bottom: 10px;
 }
 
+.main__sidebar a {
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+}
 
+.main__sidebar a > * {
+    margin: 0;
+}
 
 /*\ Main Page Content /*/
 .main__content{
